@@ -1,1 +1,5 @@
 # gitignore
+
+# Java
+# Compiled class file
+*.class
