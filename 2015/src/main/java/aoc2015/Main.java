@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
 
+import aoc2015.day.*;
 import aoc2015.interfaces.GenericPuzzle;
 import aoc2015.util.ReadInput;
 
@@ -13,6 +14,8 @@ public class Main {
             System.out.println("Usage: java Main [day]");
             return;
         }
+
+        new Day01();
 
         try {
             int dayNumber = Integer.parseInt(args[0]);
