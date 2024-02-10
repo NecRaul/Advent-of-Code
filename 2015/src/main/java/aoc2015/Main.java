@@ -24,6 +24,7 @@ public class Main {
         new Day07();
         new Day08();
         new Day09();
+        new Day10();
 
         try {
             int dayNumber = Integer.parseInt(args[0]);
