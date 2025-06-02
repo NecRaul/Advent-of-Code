@@ -1,5 +1,6 @@
 # gitignore
 
 # Java
-# Compiled class file
-*.class
+# Gradle cache and build output
+.gradle
+build
